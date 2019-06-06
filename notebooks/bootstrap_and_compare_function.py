@@ -1,3 +1,7 @@
+import numpy as np
+from scipy.stats import ttest_ind
+import seaborn as sns
+
 def bootstrap_and_compare(samp1, samp2, num_bootstraps=1000, size_bootstraps=500):
     
     samp1_bootstraps = []
