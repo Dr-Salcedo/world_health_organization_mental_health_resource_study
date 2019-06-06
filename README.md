@@ -75,7 +75,7 @@ Upon graphing the low resource and high resource groups, we observed a lower mea
 
 This seemingly paradoxical result may have been obtained for several reasons.  In addition to aforementioned country specific differences in the population samples, differences between female and male suicide methods and resulting intervention times could have skewed the data.  It is widely known that the methods of which men and female commit suicides differ greatly.  While the top methods of suicide for males, according to WHO, inlcude firearm use and hanging, for females the most prevalent method of sucicide involves some form of poisoning (medications, pesticides, etc).  This factor alone is very important to consider.  In abrupt suicide methods where no time is provided for possible medical intervetion, it is resonable to expect higher suicide rates.  In suicide attempts that allow time for intervention and treatment, there is a greater opportunity for the preservation of life and thus a lower suicide rate.  Based on the results obtained for the female population comparison, one could conclude that available resources, when given appropriate time to be utilized, are effective in reducing suicide rates.
 
-![alt text]("https://github.com/DrSalcedo/world_health_organization_mental_health_resource_study/blob/master/images/depression_differences_global.png")
+![alt text](/images/depression_differences_global.png)
 
 
 ### Recommendations and Potential Further Study
