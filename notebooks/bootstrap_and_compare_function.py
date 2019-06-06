@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.stats import ttest_ind
 import seaborn as sns
+import matplotlib.pyplot as plt
 
 def bootstrap_and_compare(samp1, samp2, num_bootstraps=1000, size_bootstraps=500):
     
@@ -20,8 +21,9 @@ def bootstrap_and_compare(samp1, samp2, num_bootstraps=1000, size_bootstraps=500
     for i in samp2_bootstraps:
         samp2_means.append(np.mean(i))
     
-    sns.distplot(samp1_means, color='red')
-    sns.distplot(samp2_means)
+    sns.distplot(samp1_means, color='red', label="above mean")
+    sns.distplot(samp2_means, label="below mean")
+    plt.legend()
     
     test = ttest_ind(samp1_means, samp2_means, equal_var=False)
     
