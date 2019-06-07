@@ -67,7 +67,7 @@ Hypothesis 3:There is a difference in suicide rates for females in countries bel
 
 For our first hypothesis, we calculated a Cohen's D of 0.1593, demonstrating a signficant (p=0.00), albeit small, relationship beteewn a country's suicide rate and available mental healthcare providers.
 
-Upon graphing the low resource and high resource groups, we observed a higher mean distribution of suicide rates in high resource countries and a lower mean distribution of suicide rates in low resource country.
+Upon graphing the low resource and high resource groups, we observed a higher mean distribution of suicide rates in high resource countries and a lower mean distribution of suicide rates in low resource countries.
 
 This result is counterintuitive and may be reflective of several factors.  Firstly, suicide rates may not be the best proxy for mental health resource effectiveness.  It fails to take into account the great deal of variety in mental health classification.  Mental health illnesses such as generalized anxiety and eating disorders can expectedly have far less correlation to suicide rates.  Furthermore, available resources may be very effective in treating mental health illnesses and alleviating patient symptoms, however this would not be reflected in our model.
 
