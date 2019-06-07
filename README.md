@@ -17,7 +17,7 @@ We utilized the World Health Organization's "Global Health Observatory Data Repo
 
 Given that it is widely accepted that there are stark differences in available resources as well as reported rates of mental health illnesses among various countries, we chose to investigate specifically, if there is a relationship between the total number of available mental health providers in a given country and reported suicide rates.  For this analysis, mental health providers included psychiatrists, psychologists, social workers, and dedicated mental health nurses.  
 
-Each provider type was given equal weight in the analysis and a tally count of total mental health provider obtained.  A mean threshold for provider count for all countries was calculated and used to divide all countries into 2 groups.  Group 1 being the high resource group and group 2 being the low resource group.  The age range utilized in this study included individuals ages 15-29.  All countries for which suicide rates and provider statistics were available for the year 2016 were included in the analysis.  In order to obtain a normal sampling distribution from which to conduct our analysis, the sample data was bootstrapped (ie repeated sampling of our data with replacement) 1000 times with a sample size of 500 (n=500).  Three hypotheses were tested via 2 sample independent T-Tests in our analysis.  In addition to computing p-values for alternative hypothesis testing, effect size and distribution visualizations were utilized.
+Each provider type was given equal weight in the analysis and a tally count of total mental health provider obtained.  A mean threshold for provider count for all countries was calculated and used to divide all countries into 2 groups.  Group 1 being the high resource group and group 2 being the low resource group.  The age range utilized in this study included individuals ages 15-29.  All countries for which suicide rates and provider statistics were available for the year 2016 were included in the analysis.  In order to obtain a normal sampling distribution from which to conduct our analysis, the sample data was bootstrapped (ie repeated sampling of our data with replacement) 1000 times with a sample size of 500 (n=500).  Three hypotheses were tested via 2 sample independent T-Tests (Welch's T-test) in our analysis due to unequal group sample sizes.  In addition to computing p-values for alternative hypothesis testing, effect size and distribution visualizations were utilized.
 
 Hypotheses:
 
@@ -79,7 +79,7 @@ The acceptance of suicide in various cultures and religions, and by extenstion c
 
 For our second hypothesis, we calculated a Cohen's D of 0.284, demonstrating a signficant (p=0.00), albeit small, relationship beteewn a country's male suicide rate and available mental healthcare providers.
 
-Upon graphing the low resource and high resource groups, we observed a higher mean distribution of male suicide rates in high resource countries and a lower mean distribution of male suicide rates in low resource country.
+Upon graphing the low resource and high resource groups, we observed a higher mean distribution of male suicide rates in high resource countries and a lower mean distribution of male suicide rates in low resource countries.
 
 
 For our third hypothesis, we calculated a Cohen's D of 0.266, demonstrating a signficant (p=0.00), albeit small, relationship beteewn a country's female suicide rate and available mental healthcare providers.
@@ -96,11 +96,11 @@ This seemingly paradoxical result may have been obtained for several reasons.  I
 
 The value of addressing and treating mental health illness in society cannot be overstated. 
 
-From a research perspective, futher comparative research analyses on the predictive factors influencing mental health in low and middle income countries are needed.  It is with this research that we will be in a better position to effectively treat and alleviate mental health illnesses.
+From a research perspective, further comparative research analyses on the predictive factors influencing mental health in low and middle income countries are needed.  It is with this research that we will be in a better position to effectively treat and alleviate mental health illnesses.
 
 A more standardized and uniform data collection and classification system for mental health illness, although difficult, would allow for the elimination or at least minimization of various variables such as differences in country specific laws and societal norms.  This would allow for more direct and reliable statistical studies.
 
-From a business perspective, the effectiveness of mental health intervention in improving workers' quality of life and preventing suicides is well documented.  How to most effectivley allocate resources toward mental health illness still requires further study.  An example being finding more effective suicide prevention methods for males, who compose a population more likely compared to females to engage in abrupt suicide methods.
+From a business perspective, the effectiveness of mental health intervention in improving workers' quality of life and preventing suicides is well documented.  How to most effectively allocate resources toward mental health illness still requires further study.  An example being finding more effective suicide prevention methods for males, who compose a population more likely compared to females to engage in abrupt suicide methods.
 
 
 *****************************************
