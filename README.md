@@ -39,8 +39,8 @@ Hypothesis 1: There is a difference in suicide rates for countries below and abo
     Effect size (Cohen's D): 0.1593
     
     ![alt text](https://github.com/Dr-Salcedo/world_health_organization_mental_health_resource_study/blob/pablo_branch/images/raw_dist_btsx.png)            ![alt text](https://github.com/Dr-Salcedo/world_health_organization_mental_health_resource_study/blob/pablo_branch/images/raw_dist_btsx.png?raw=true)       
-    
-
+ ![alt text](/images/bootstrap_dist_btsx.png)
+ ![alt text](/Users/buddy4732/datascience/World_Health_Organization_Mental_Health_Resource_Study/images/bootstrap_dist_btsx.png)
 Hypothesis 2: There is a difference in suicide rates for males in countries below and above the mean threshold of mental health professionals per 100,000 people.
 
     With p=0.00, we can reject the Null Hypothesis. These populations are different.
