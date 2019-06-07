@@ -1,7 +1,7 @@
 # World Health Organization Mental Health Resource Study
 ==============================
 
-A Statistical Analysis on  Mental Health Resources and Worldwide Suicide Rates
+A Statistical Analysis of  Mental Health Resources and Global Suicide Rates
 ==============================
 
 
@@ -37,17 +37,27 @@ Hypothesis 1: There is a difference in suicide rates for countries below and abo
 
     With p=0.00, we can reject the Null Hypothesis. These populations are different.
     Effect size (Cohen's D): 0.1593
+    
+    ![alt text](/images/raw_dist_btsx.png)            ![alt text](/images/bootstrap_dist_btsx.png)       
+    
 
 Hypothesis 2: There is a difference in suicide rates for males in countries below and above the mean threshold of mental health professionals per 100,000 people.
 
     With p=0.00, we can reject the Null Hypothesis. These populations are different.
     Effect size (Cohen's D): 0.284
 
+     ![alt text](/images/raw_dist_males.png)            ![alt text](/images/bootstrap_dist_males.png)  
+     
+     
+     
 Hypothesis 3:There is a difference in suicide rates for females in countries below and above the mean threshold of mental health professionals per 100,000 people.
 
     With p=0.00, we can reject the Null Hypothesis. These populations are different.
     Effect size (Cohen's D): 0.266
 
+     ![alt text](/images/raw_dist_females.png)            ![alt text](/images/bootstrap_dist_females.png)  
+     
+     
 
 ### Interpretation
 
@@ -75,7 +85,7 @@ Upon graphing the low resource and high resource groups, we observed a lower mea
 
 This seemingly paradoxical result may have been obtained for several reasons.  In addition to aforementioned country specific differences in the population samples, differences between female and male suicide methods and resulting intervention times could have skewed the data.  It is widely known that the methods of which men and female commit suicides differ greatly.  While the top methods of suicide for males, according to WHO, inlcude firearm use and hanging, for females the most prevalent method of sucicide involves some form of poisoning (medications, pesticides, etc).  This factor alone is very important to consider.  In abrupt suicide methods where no time is provided for possible medical intervetion, it is resonable to expect higher suicide rates.  In suicide attempts that allow time for intervention and treatment, there is a greater opportunity for the preservation of life and thus a lower suicide rate.  Based on the results obtained for the female population comparison, one could conclude that available resources, when given appropriate time to be utilized, are effective in reducing suicide rates.
 
-![alt text](/images/depression_differences_global.png)
+
 
 
 ### Recommendations and Potential Further Study
